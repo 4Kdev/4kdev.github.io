@@ -1,0 +1,276 @@
+/*html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;aaa
+}
+
+main, div {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 70px;   
+    background: gray;
+    z-index: 11;
+}
+
+.header_items {
+    position: absolute;
+    list-style-type: none;
+    display: block;
+    overflow: hidden;
+}
+
+.header_items li {
+    float: left;
+}
+
+.header_nav li {
+    float: right;
+}
+
+#section_main {
+    background: url(ahri.jpg) center center / cover no-repeat ;
+}
+
+#section_detail {
+    background: url(sejuani.jpg) center center/ auto no-repeat ;
+}
+
+#section_footer {
+    background-color: #000;
+    height: 100px;
+}
+
+.image_down {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 40px;
+} 
+============ 
+* {
+    box-sizing: border-box;
+} 
+
+html, body, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+}
+
+.header_main {
+    height: 45px;
+    position: relative;
+}
+
+.header_title {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header_title p, img{
+    float: left;
+    vertical-align: middle;
+}
+
+.header_nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header_nav li {
+    list-style: none;
+    float: right;
+}
+
+.header_nav li a {
+    text-decoration: none;
+} 
+======================
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Montez', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a svg:hover #logo-twitter {
+    fill: #55acee;
+}
+
+a svg:hover #logo-facebook {
+    fill: #3b5999;
+}
+
+a.disabled {
+    pointer-events: none;
+}
+
+a[disabled]{
+    pointer-events: none;
+}
+/*
+.not-active-link {
+    pointer-events: none;
+    cursor: default;
+} */
+
+.first_item_list {
+    position: relative;
+    top: 1px;
+}
+
+.third_item_list {
+    position: relative;
+    top: 3px;
+}
+
+.header-follow-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.25rem;
+}
+
+.list-language {
+    padding-right: 16px;
+}
+
+.list-language li {
+    list-style-type: none;
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+
+.list-social-network {
+    padding-left: 16px;
+}
+
+.list-social-network li {
+    list-style-type: none;
+    float: left;
+    padding: 5px 8px 5px 8px;
+}
+
+.list-social-network li a {
+    width: 25px;
+    height: 25px;
+}
+
+.main-body {
+    position: relative;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.main-footer {
+    position: relative;
+    bottom: 0;
+    background: #212121;
+}
+
+.main-footer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-footer p {
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.main-header {
+    position: relative;
+    padding: 20px 20px 0 20px;
+}
+
+.main-language {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+.main-nav {
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.main-nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-social-network {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+}
+
+.main-title {
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.main-title h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+}
+
+.main-title p {
+    font-family: 'Montez', cursive;
+    font-size: 1.5rem;
+    padding-top: 6px;
+}
+
+.main-nav {
+    position: relative;
+    padding-top: 50px;
+}
+
+.main-nav a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    color: #000;
+}
+
+.main-nav a:hover {
+    background: #bdc3c7;
+}
+
+.paragraph-body {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    margin: 10px 250px 10px 250px;
+}
+
+.secondary-title {
+    position: relative;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.title-body {
+    font-family: 'Josefin Sans', sans-serif;
+}
